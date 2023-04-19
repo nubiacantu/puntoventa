@@ -1,0 +1,80 @@
+.boton{
+  background-color: black; 
+  border-color: black;
+  color: white;
+}
+.boton:hover {
+  background-color: #23929F;
+  border-color: #23929F;
+  color: white;
+}
+
+.mycheck:checked {
+  background-color: #784695;
+  border-color: #E9D0F8;
+}
+body{
+  background-color: #52BFA5;
+  /*   #B5E8DC */
+  max-width:100%;
+}
+.head{
+  background-color: #784695; 
+  color: white;
+}
+.obligatorio{
+  color: red;
+  font-weight: 500;
+}
+.input{
+  border: 2px solid #23929F;
+}
+.main-sidebar{
+  background-color: #643580;
+}
+.main-sidebar a{
+  color: #E9D0F8 !important;
+}
+.main-sidebar a.active {
+  color: black !important;
+  background-color: #E9D0F8 !important;
+}
+.main-sidebar a.active:hover {
+  color: black !important;
+  background-color: #E9D0F8 !important;
+}
+.main-sidebar a:hover{
+  background-color: #8F61AB !important;
+  color: white !important;
+}
+.p-menu{
+  padding-left: 1em !important;
+  color: black; 
+  width: 50px; 
+  height: 40px; 
+  background-color: white; 
+  border-radius: 5px; 
+  -webkit-box-shadow: 1px 1px 10px 0px rgba(164,158,168,0.51);
+  -moz-box-shadow: 1px 1px 10px 0px rgba(164,158,168,0.51);
+  box-shadow: 1px 1px 10px 0px rgba(164,158,168,0.51);
+}
+.small-box{
+  background: linear-gradient(to bottom right, #B096B2, #D2ABD8);
+  color: white;
+}
+.img{
+  height: 200px;
+  border-radius: 5px; 
+  -webkit-box-shadow: 1px 1px 10px 0px rgba(164,158,168,0.51);
+  -moz-box-shadow: 1px 1px 10px 0px rgba(164,158,168,0.51);
+  box-shadow: 1px 1px 10px 0px rgba(164,158,168,0.51);
+}
+.product:hover{
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.dropdown-item:hover{
+  background-color: #E9D0F8 !important;
+}
+.dropdown-item:active{
+  background-color: #643580 !important;
+}

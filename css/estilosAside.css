@@ -1,0 +1,67 @@
+.sidebar {
+  width: 80px;
+height: 100%;
+background-color: #52BFA5;
+position: fixed;
+top: 0;
+left: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start; 
+}
+
+/* Estilos para los botones del menú lateral */
+.sidebar-button {
+width: 60px;
+height: 60px;
+background-color: #fff;
+border: none;
+margin-bottom: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 30px;
+color: #333;
+cursor: pointer;
+border-radius: 5px; /* Bordes curvados */
+text-decoration: none; /* Agregar esta línea */
+}
+.sidebar-button:hover {
+background-color: #f0f0f0; /* Cambia el color de fondo al hacer hover */
+color: #555; /* Cambia el color del texto al hacer hover */
+}
+
+/* Estilos para el contenido de la página */
+.content {
+margin-left: 60px; /* Ancho del menú lateral */
+padding: 20px;
+}
+.perfil {
+border-radius: 50%;
+margin-top: 10px;
+}
+.user-type {
+color: #fff;
+font-size: 12px;
+margin-top: 5px;
+}
+.store {
+color: #fff;
+font-size: 12px;
+}
+.divider {
+width: 100%;
+height: 1px;
+background-color: #fff;
+margin-top: 10px;
+}
+.sidebar-button:not(:last-child) {
+margin-bottom: 20px; /* Ajusta el margen inferior para separar los botones */
+}
+.salir {
+background-color: transparent; /* Eliminado el fondo del botón de salida */
+position: absolute;
+font-size: 30px;
+bottom: 1px; /* Cambiado el margen inferior para ubicar el botón en la parte inferior */
+}
